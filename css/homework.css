@@ -1,0 +1,78 @@
+.content{
+  background-color: #d1f3fe;
+  width: 80%;
+  padding: 0px 50px 50px 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.content p,b{
+  margin: 16px 0px 16px;
+}
+
+.homework{
+  padding-top: 50px;
+}
+
+.homework p{
+  display: block;
+}
+
+.text{
+  text-align: justify;
+  padding-left: 40px;
+}
+
+h2{
+  color: #638303;
+}
+
+hr{
+  border-color: #638303;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.top-btn{
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+
+.top-btn a{
+  background-color: rgb(3, 99, 131);
+  color: white;
+  border: 1px solid white;
+  border-radius: 30%;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.top-btn a:hover{
+  background-color: #638303;
+  color: black;
+  border: 1px solid black;
+}
+
+.top-btn a:active{
+  background-color: #638303;
+  color: white;
+}
+
+.title{
+  padding-top: 50px;
+  text-align: start;
+  display: inline-block;
+}
+
+.subtitle-1{
+  padding-left: 20px;
+}
+
+.deadline{
+  color: rgb(255, 0, 0);
+  margin: 16px 0px 16px;
+  display: inline-block;
+}

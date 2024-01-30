@@ -1,0 +1,86 @@
+.content{
+  background-color: #d1f3fe;
+  width: 80%;
+  padding: 0 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  overflow-y: scroll;
+}
+
+h2{
+  color: #638303;
+}
+
+.content p{
+  text-align: justify;
+  margin: 16px 0px 16px;
+}
+
+.text{
+  text-align: justify;
+  padding-left: 40px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  font-size: 20px;
+  max-width: 600px;
+  justify-items: center;
+}
+
+label{
+  margin: 18px 0 10px 0;
+}
+
+input{
+  border: 1px solid #638303;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+textarea{
+  border: 1px solid #638303;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: -14px;
+  padding: 8px;
+}
+
+button{
+  margin-top: 38px;
+  padding: 10px ;
+  background-color: #638303;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #01232e;
+}
+
+hr{
+  border-color: #638303;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.title{
+  padding-top: 50px;
+  text-align: start;
+  
+  display: inline-block;
+}
+
+.outlook-open{
+  text-decoration: none;
+}
